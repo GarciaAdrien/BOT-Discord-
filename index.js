@@ -1,4 +1,5 @@
 const { Client, Intents } = require('discord.js');
+var configjs = require('./config.json');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.on('ready', () => {
@@ -13,4 +14,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login('OTQ5MjQzNjkyNjcyMjI1MzQw.YiHiFA.0cAyAJKep3Pj24GQwmIJ6ihl9lY');
+client.login(configjs.token);
