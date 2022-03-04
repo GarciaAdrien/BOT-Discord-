@@ -1,0 +1,15 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "bot discord Adrien",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adrien",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "npm": "^8.5.3"
+  }
+}
